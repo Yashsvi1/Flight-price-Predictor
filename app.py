@@ -259,7 +259,7 @@ def predict():
 
         # Destination
         # Banglore = 0 (not in column)
-        Source = request.form["Destination"]
+        Destination = request.form["Destination"]
         if (Source == 'Cochin'):
             d_Cochin = 1
             d_Delhi = 0
